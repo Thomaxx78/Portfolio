@@ -1,0 +1,425 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: red solid 1px; */
+}
+
+body{
+  background-color: #8810ff;
+}
+
+main {
+  background-color: #212122;
+  margin: 4%;
+  border-radius: 25px;
+  padding-bottom: 500px;
+
+}
+
+.conteneur{
+    display: flex;
+    margin: auto 0%;
+
+}
+
+.nav{
+    margin-top: 95px;
+    margin-left: 220px;
+}
+
+.nav1por {
+  margin-left: 10px;
+    color: grey;
+}
+
+.nav1por:hover{
+  color: white;
+}
+
+.nav2por{
+  color: white;
+}
+
+.nav3por:hover{
+    color: white;
+}
+
+.nav1 {
+  margin-left: 10px;
+    color: white;
+}
+
+.nav2:hover{
+    color: white;
+}
+
+.nav3:hover{
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    overflow: hidden;
+    font-size: 50px;
+    justify-content: space-between 5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    margin-left: 60px;
+    display: block;
+    color: rgb(157, 154, 154);
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 135px;
+    width: 450px;
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+
+  .conteneur1 {
+    display: flex;
+    margin-right: auto;
+  }
+
+  .thomas {
+    border-radius: 50%;
+    border-width: 15px;
+    border-color: #434344;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 150px;
+  }
+
+  .text {
+    color: white;
+    margin-left: 12%;
+    margin-top: 210px
+  }
+
+  .travail {
+    color: rgb(157, 154, 154);
+    font-size: 200%;
+  }
+  
+  .nom {
+    font-size: 380%;
+  }
+
+  .info {
+    color: rgb(157, 154, 154);
+    font-size: 145%;
+    text-align: left;
+  }
+
+  .cv {
+    text-decoration-line: none;
+    font-size: 150%;
+    color:white;
+    background-color: #323233;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7F00FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: 40px;
+  }
+
+  .cv:hover {
+    background-color: #7F00FF;
+    transition-duration: 0.5s;
+  }
+
+  .contact {
+    font-size: 150%;
+    color:white;
+    background-color: #323233;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .contact:hover {
+    background-color: rgb(213, 211, 211);
+    color:#212122;
+    transition-duration: 0.5s;
+    border-color: rgb(213, 211, 211);
+  }
+
+  .competences {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 400%;
+  }
+
+  .hrtitre {
+    height: 3px;
+    background-color: #7F00FF;
+    border: none;
+    width: 15%;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .conteneur2 {
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    margin-top: 150px;
+  }
+
+  .un {
+    display: flex;
+    margin-left: 5%;
+  }
+
+  .deux {
+    display:flex;
+    margin-left: 100px;
+  }
+
+  .ux {
+    height: 150px;
+    width: 150px;
+  }
+
+  .uxtext {
+    margin-left: 50px;
+  }
+
+  .uxtitre {
+    font-size: 50px;
+  }
+
+  .uxpara {
+    font-size: 20px;
+    color:rgb(157, 154, 154);
+    margin-left: 8px;
+  }
+
+  .wptext {
+    margin-left: 50px;
+  }
+
+  .wptitre {
+    font-size: 50px;
+  }
+
+  .wppara {
+    font-size: 20px;
+    color:rgb(157, 154, 154);
+    margin-left: 8px;
+  }
+
+  .wp {
+    height: 175px;
+    width: 175px;
+  }
+
+  .devweb {
+    margin-top: 125px;
+    display: flex;
+    margin-left: 425px;
+  }
+
+  .devtext {
+    margin-left: 50px;
+  }
+
+  .devtitre {
+    color: white;
+    font-size: 50px;
+  }
+
+  .devpara {
+    font-size: 20px;
+    color:rgb(157, 154, 154);
+    margin-left: 8px;
+  }
+
+  .btn {
+    height: 75px;
+    width: 75px;
+    background:#7F00FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.fleche {
+  height: 55px;
+  width: 55px;
+}
+
+.btn:hover {
+  height: 95px;
+  width: 95px;
+  transition-duration: 0.5s;
+}
+
+.btn:hover .fleche{
+    height: 75px;
+    width: 75px;
+    transition-duration: 0.5s;
+}
+
+.parcours {
+  color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 80px;
+}
+
+
+.hori {
+  height: 3px;
+  background-color: #7F00FF;
+  border: none;
+  width: 100px;
+  margin-top: 100px;
+  margin-right: 0;
+}
+
+.brevet{
+  display: flex;
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.content div{
+  width: 40%;
+}
+
+.content p{
+  text-align: right;
+  color: rgb(157, 154, 154);
+  margin-top: 2%;
+}
+
+.content h2 {
+  color: #7F00FF;
+}
+
+.divRight{
+  position: absolute;
+  top: 105%;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.divLeft1{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.divRight p {
+  text-align: left;
+}
+
+.divLeft2{
+  position: absolute;
+  top: 165%;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.line{
+    width : 1px;
+    height : 770px;
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    background-color: #7F00FF;
+    border: #7F00FF solid 2px;
+}
+
+.branchune {
+  top: 48%;
+  right: 50%;
+  width: 65px;
+  background-color: #7F00FF;
+  border: #7F00FF solid 2px;
+  position: absolute;
+}
+
+.branchdeux{
+  top: 115%;
+  left: 50%;
+  width: 65px;
+  background-color: #7F00FF;
+  border: #7F00FF solid 2px;
+  position: absolute;
+}
+
+.branchtrois{
+  top: 175%;
+  right: 50%;
+  width: 65px;
+  background-color: #7F00FF;
+  border: #7F00FF solid 2px;
+  position: absolute;
+}
+
+.diplome{
+  height: 100px;
+  width: 100px;
+  margin-left: 42.8%;
+  margin-top: 2.5%;
+  position: absolute;
+}
+
+.flechelol {
+  height: 90px;
+  width: 60px;
+  position: absolute;
+  margin-top: 705px;
+  margin-left: 47.45%;
+}
+
+
+
