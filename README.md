@@ -13,6 +13,6 @@ In this third part, I will explain the extension and applications related to my 
 
 Zapier automates your work across 5000+ app integrations. I use it to send me a discord message on my Dev server and it tells me when: - I or someone commit - I have a github notification
 
-Imgbot who's not currently working
+Imgbot who's not currently working, its not sending any pr.
 
 CodeFactor who instantly performs Code Review with every GitHub Commit or PR.
